@@ -1,0 +1,99 @@
+.backgroundContainer {
+    background-image: url('../../../assets/Images/BG.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centerContainer {
+    max-width: 900px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    --bs-card-border-width: none;
+}
+
+.header {
+    background: none;
+    color: #02346A;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: outfit;
+}
+
+.mb-3 {
+    font-family: outfit;
+    transition: border-color 0.3s ease;
+    width: 360px;
+    border-bottom: 2px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.mb-3:hover {
+    border-bottom-color: #5CC280;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: none !important;
+    border-bottom-color: #5CC280;
+}
+
+.mb-3::placeholder {
+    opacity: 0.3;
+}
+
+.checkbox {
+    margin-bottom: 20px;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btn {
+    border: none;
+    background-color: #02346A;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 100px; */
+    margin: auto;
+    font-family: outfit;
+}
+
+.btn:hover {
+    background-color: #5CC280;
+}
+
+.footer {
+    color: #02346A;
+    font-weight: 500;
+    font-size: 17px;
+    background: none;
+    font-family: outfit;
+    cursor: pointer;
+}
+
+.textmuted {
+    background: none;
+    font-family: outfit;
+    font-size: 9px;
+}
+
+.p-2 {
+    position: absolute;
+    top: 45%;
+    left: 81%;
+    cursor: pointer;
+}
